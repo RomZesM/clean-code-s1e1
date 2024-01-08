@@ -6,42 +6,46 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <div class="image-block">
+  <header class="image-block">
     <img src="./eisenhower-matrix.jpg"><a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main-section">
-    <p id="adding-element-section">
+  </header>
+  <main class="main-section">
+    <section id="adding-element-section">
       <h3 class="new-task-label section-label">Add Item</h3>
       <div class="task-row-wrapper">
         <input id="new-task" class="task " type="text">
         <button class="button">Add</button>
       </div>
-    </p>
-    <h3 class="section-label">Todo</h3>
-    <ul id="incomplete-tasks">
-      <li class="list-item">
-        <input type="checkbox" class="checkbox"><label class="task task-label">Pay Bills</label>
-        <input type="text" class="task task-input">
-        <button class="edit button">Edit</button>
-        <button class="delete button"><img class="remove-img" src="./remove.svg"></button>
-      </li>
-      <li class="list-item edit-mode">
-        <input type="checkbox" class="checkbox"><label class="task task-label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task task-input">
-        <button class="edit button">Save</button>
-        <button class="delete button"><img class="remove-img" src="./remove.svg"></button>
-      </li>
-    </ul>
-    <h3 class="section-label">Completed</h3>
-    <ul id="completed-tasks">
-      <li class="list-item">
-        <input type="checkbox" checked><label class="task task-label">See the Doctor</label>
-        <input type="text" class="task task-input">
-        <button class="edit button">Edit</button>
-        <button class="delete button"><img class="remove-img" src="./remove.svg"></button>
-      </li>
-    </ul>
-  </div>
+    </section>
+    <section id="todo-secition">
+      <h3 class="section-label">Todo</h3>
+      <ul id="incomplete-tasks">
+        <li class="list-item">
+          <input type="checkbox" class="checkbox"><label class="task task-label">Pay Bills</label>
+          <input type="text" class="task task-input">
+          <button class="edit button">Edit</button>
+          <button class="delete button"><img class="remove-img" src="./remove.svg"></button>
+        </li>
+        <li class="list-item edit-mode">
+          <input type="checkbox" class="checkbox"><label class="task task-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task task-input">
+          <button class="edit button">Save</button>
+          <button class="delete button"><img class="remove-img" src="./remove.svg"></button>
+        </li>
+     </ul>
+    </section>
+    <section id="completed-section">
+      <h3 class="section-label">Completed</h3>
+      <ul id="completed-tasks">
+        <li class="list-item">
+          <input type="checkbox" checked><label class="task task-label">See the Doctor</label>
+          <input type="text" class="task task-input">
+          <button class="edit button">Edit</button>
+          <button class="delete button"><img class="remove-img" src="./remove.svg"></button>
+        </li>
+      </ul>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
