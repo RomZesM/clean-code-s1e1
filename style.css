@@ -18,8 +18,8 @@
 }
 
 @media (max-width:768px) {
-.image-block { text-align: center;
-}
+  .image-block { text-align: center;
+  }
 }
 .main-section {
     display: block;
